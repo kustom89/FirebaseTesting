@@ -11,6 +11,16 @@ public class Nodes {
         return root.child("clients");
     }
 
+    public DatabaseReference movies() {
+
+        return root.child("movies");
+    }
+
+    public DatabaseReference albums() {
+
+        return root.child("albums");
+    }
+
     public DatabaseReference client() {
         return clients().child("jhkkjnkjn");
     }

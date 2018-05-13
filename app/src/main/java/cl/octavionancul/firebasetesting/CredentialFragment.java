@@ -48,11 +48,11 @@ public class CredentialFragment extends Fragment {
         root.child("credentials").child("00030").addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                Credential credential = dataSnapshot.getValue(Credential.class);
+              /*  Credential credential = dataSnapshot.getValue(Credential.class);
 
                 deparment.setText(credential.getDeparment());
                 jobTitle.setText(credential.getJobTitle());
-                name.setText(credential.getName());
+                name.setText(credential.getName());*/
 
 
 
